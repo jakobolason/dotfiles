@@ -1,5 +1,5 @@
-@import url("catpuccin/mocha.css");
-{
+@import url("catppuccin/mocha.css");
+* {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     font-size: 13px;
@@ -120,7 +120,7 @@ button:hover {
 
 #battery {
     background-color: #ffffff;
-    color: #000000;
+    /* color: #ffffff; */
 }
 
 #battery.charging, #battery.plugged {
@@ -131,7 +131,7 @@ button:hover {
 @keyframes blink {
     to {
         background-color: #ffffff;
-        color: #000000;
+        /* color: #000000; */
     }
 }
 
@@ -152,17 +152,17 @@ button:hover {
 
 #power-profiles-daemon.performance {
     background-color: #f53c3c;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 #power-profiles-daemon.balanced {
     background-color: #2980b9;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 #power-profiles-daemon.power-saver {
     background-color: #2ecc71;
-    color: #000000;
+    /* color: #000000; */
 }
 
 label:focus {
@@ -171,7 +171,7 @@ label:focus {
 
 #cpu {
     background-color: #2ecc71;
-    color: #000000;
+    /* color: #000000; */
 }
 
 #memory {
@@ -196,7 +196,7 @@ label:focus {
 
 #pulseaudio {
     background-color: #f1c40f;
-    color: #000000;
+    /* color: #000000; */
 }
 
 #pulseaudio.muted {
@@ -206,7 +206,7 @@ label:focus {
 
 #wireplumber {
     background-color: #fff0f5;
-    color: #000000;
+    /* color: #000000; */
 }
 
 #wireplumber.muted {
@@ -254,7 +254,7 @@ label:focus {
 
 #idle_inhibitor.activated {
     background-color: #ecf0f1;
-    color: #2d3436;
+    /* color: #2d3436; */
 }
 
 #mpd {
