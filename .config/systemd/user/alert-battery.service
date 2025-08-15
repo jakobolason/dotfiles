@@ -1,0 +1,8 @@
+[Unit]
+
+[Service]
+Type=oneshot
+ExecStart=/home/jakob/scripts/alert-battery.sh
+
+[Install]
+WantedBy=graphical.target
