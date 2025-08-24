@@ -1,0 +1,7 @@
+# install script for arch, but i propably have forgotten a bunch of things
+pacman -S NetworkManager wayland hyprland sudo gnome \
+# default apps
+ firefox obsidian kitty dolphin  \
+
+# for hyprland conf
+ hyprpaper hyprlock waybar wofi arch-update mako
